@@ -1,0 +1,333 @@
+/* Grundregler i min css kode */
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f1ead1;
+    font-family: sans-serif;
+}
+
+/* Styling af navbar */
+/* Gør så navbaren kommer med ned på siden */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #ff2800;
+    font-size: 1.375rem;
+    padding-right: 10%;
+    list-style-type: none;
+}
+
+/* Laver mellemrum mellem navpunkterne og sætter en effekt når man har sin mus på en af punkterne */
+nav ul li {
+    margin: 1.5%;
+    cursor: pointer;
+}
+
+/* Fjerner streger under mine menupunkter, samt ændre farven på teksten */
+nav ul li a {
+    text-decoration: none;
+    color: #ff2800;
+}
+
+/* Når man hover over navpunkterne bliver de større */ 
+nav ul li:hover {
+    transform: scale(1.2);
+}
+
+/* Fjerner streg under mit logo */
+nav a {
+    text-decoration: none;
+}
+
+/* Sætter billedet relativt så jeg kan rykke det på linje med min navbar */
+nav a img {
+    position: relative;
+    top: 50px;
+    margin-left: 10%;
+}
+
+/* Gør så hamburger menuen ikke er synlig */
+.ham-menu {
+    display: none;
+}
+
+/* Gør så mine punkter i hamburgermenuen ikke er synlige */
+.menu {
+    display: none;
+}
+
+/* Menukort styling begynder her */ 
+/* Main */
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 7%;
+}
+
+main h3 {
+    color: #ff2800;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;  
+    margin-top: 5rem;  
+    font-family: "Montserrat", sans-serif;
+}
+
+main ul {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+    color: #ff2800;
+    margin-top: 1.25rem;
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+main ul li {
+    margin-top: 1.25rem;
+}
+
+main h4 {
+    color: #ff2800;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.2rem;  
+    width: 24%;
+    margin-left: 38%;
+    margin-right: 38%;
+    margin-top: 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+}
+
+/* Styling af footer */ 
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #ff2800;
+    margin-top: 20rem;
+    margin-bottom: 10rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+footer h4 {
+    font-size: 1.5rem;
+}
+
+footer ul {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+footer ul li {
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+.sociale-medier {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sociale-medier i {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.sociale-medier i:hover {
+    transform: scale(1.5);
+}
+
+.sociale-medier-h4 {
+    margin-top: 20px;
+}
+
+.kontakt {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.åbningstider table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.åbningstider th {
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.åbningstider td {
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+
+/* Breakpoint for skærmstørrelse. Som har målene 395px til 1024px */ 
+/* Dermed gælder disse ændringer kun indenfor målene 395px til 1024px */ 
+@media screen and (min-width: 395px) and (max-width: 1024px) {
+    /* Styling af navbar */ 
+
+    /* Gør så mine oprindelig navbar punkter forsvinder */
+    .navbar-punkter {
+        display: none;
+    }
+
+    /* Gør min hamburger menu synlig i mindre skærmstørrelse */
+    .ham-menu {
+        display: block;
+    }
+    
+    /* Får mine andre navbar punkter frem */
+    .menu {
+        display: block;
+    }
+
+    /* Sætter punkterne i min hamburger menu til display flex */
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 100px;
+        background-color: #f1ead1;
+    }
+
+    /* Styling af punkterne i min navbar */
+    nav ul li {
+        background-color: #f1ead1;
+        margin-top: 30px;
+        color: #ff2800;
+    }
+
+    /* Styling af boksen der kommer ind */ 
+    .menu {
+        background-color: #f1ead1;
+        height: 100vh;
+        width: 100%;
+        max-width: 1024px;
+        position: fixed;
+        top: 0;
+        right: -1024px;
+        font-size: 3rem;
+        transition: .3s ease;
+    }
+    
+    .menu.active {
+        right: 0;
+    }
+    
+    /* Styling af stregerne i min hamburger-menu */
+    .ham-menu {
+        height: 3rem;
+        width: 3rem;
+        margin-left: 85vw;
+        position: relative;
+    }
+    
+
+    .ham-menu span {
+        height: 5px;
+        width: 100%;
+        background-color: #ff2800;
+        border-radius: 25px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: .3s ease;
+    }
+    
+    /* Styling af min øverste streg */
+    .ham-menu span:nth-child(1) {
+        top: 25%;
+    }
+    /* Styling af nederste streg */
+    .ham-menu span:nth-child(3) {
+        top: 75%;
+    }
+    
+    /* Sætter effekt på min øverste så den roterer når der bliver klikket på burgermenuen */
+    .ham-menu.active span:nth-child(1) {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    /* Fjerner min streg 2 når burgermenuen bliver klikket på */
+    .ham-menu.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    /* Sætter effekt på min øverste så den roterer når der bliver klikket på burgermenuen */
+    .ham-menu.active span:nth-child(3) {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+
+    /* Styling af main */ 
+    main h4 {
+        color: #ff2800;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-weight: 100;
+        font-size: 1.2rem;  
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 2rem;
+    }
+    
+    /* Styling af footer */ 
+    /* Sætter mine footer i flex direction column fremfor row. Så de bliver vidst nedad */
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+    footer ul {
+        margin-top: 0.8rem;
+    }
+
+    footer ul li {
+        margin-top: 0.8rem;
+    }
+
+    footer h4 {
+        margin-top: 5rem;
+    }
+}
