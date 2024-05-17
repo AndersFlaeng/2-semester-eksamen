@@ -14,27 +14,35 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1000;
+    background-color: #c91e25;
+    height: 7rem;
 }
 nav ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    color: #ff2800;
-    font-size: 1.375rem;
-    padding-right: 10%;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding-right: 5%;
     list-style-type: none;
+    background-color: #c91e25;
 }
 
 /* Laver mellemrum mellem navpunkterne og sætter en effekt når man har sin mus på en af punkterne */
 nav ul li {
     margin: 1.5%;
+    margin-top: -2.5rem;
     cursor: pointer;
+    background-color: #c91e25;
 }
 
 /* Fjerner streger under mine menupunkter, samt ændre farven på teksten */
 nav ul li a {
     text-decoration: none;
-    color: #ff2800;
+    color: #ffffff;
+    background-color: #c91e25;
 }
 
 /* Når man hover over navpunkterne bliver de større */ 
@@ -50,8 +58,14 @@ nav a {
 /* Sætter billedet relativt så jeg kan rykke det på linje med min navbar */
 nav a img {
     position: relative;
-    top: 50px;
+    top: 20px;
     margin-left: 10%;
+    background-color: #c91e25;
+    height: 5rem;
+}
+
+a.logo {
+    background-color: #c91e25;
 }
 
 /* Gør så hamburger menuen ikke er synlig */
@@ -71,7 +85,15 @@ figure {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 7%;
+    padding-top: 10rem;
+}
+
+figure img {
+    height: 15rem;
+}
+
+main {
+    padding-bottom: 15rem;
 }
 
 main h3 {
@@ -81,7 +103,7 @@ main h3 {
     align-items: center;
     text-align: center;
     justify-content: center;
-    font-size: 2rem;  
+    font-size: 1.5rem;  
     margin-top: 5rem;  
     font-family: "Montserrat", sans-serif;
 }
@@ -118,33 +140,50 @@ main h4 {
     font-weight: normal;
 }
 
+li {
+    font-family: "Montserrat", sans-serif;
+}
+
+.taco-hat {
+    margin-top: -5rem;
+}
+.taco-hat img {
+    height: 10rem;
+}
+
+
+/* Styling af begivenhed */ 
+
+
 /* Styling af footer */ 
 footer {
+    background-color: #c91e25;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: top;
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    color: #ff2800;
-    margin-top: 20rem;
-    margin-bottom: 10rem;
+    color: #ffffff;
     font-family: "Montserrat", sans-serif;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
 
 footer h4 {
     font-size: 1.5rem;
+    background-color: #c91e25;
 }
 
 footer ul {
     font-size: 1.2rem;
     margin-top: 20px;
+    background-color: #c91e25;
 }
 
 footer ul li {
     margin-top: 10px;
     list-style-type: none;
+    background-color: #c91e25;
 }
 
 .sociale-medier {
@@ -156,6 +195,7 @@ footer ul li {
 .sociale-medier i {
     font-size: 2rem;
     cursor: pointer;
+    background-color: #c91e25;
 }
 
 .sociale-medier i:hover {
@@ -180,15 +220,33 @@ footer ul li {
     width: 50%;
 }
 
+
 .åbningstider th {
     text-align: left;
     font-size: 1.5rem;
+    background-color: #c91e25;
 }
 
 .åbningstider td {
     text-align: right;
     font-size: 1.5rem;
+    background-color: #c91e25;
 }
+
+table.åbningstider {
+    background-color: #c91e25;
+    margin-left: 10%;
+}
+
+div.kontakt-boks {
+    background-color: #c91e25;
+    margin-right: 10%;
+}
+
+div.find-os-boks {
+    background-color: #c91e25;
+}
+
 
 
 /* Breakpoint for skærmstørrelse. Som har målene 395px til 1024px */ 
@@ -219,24 +277,22 @@ footer ul li {
         align-items: center;
         text-align: center;
         margin-top: 100px;
-        background-color: #f1ead1;
     }
 
     /* Styling af punkterne i min navbar */
     nav ul li {
         background-color: #f1ead1;
         margin-top: 30px;
-        color: #ff2800;
+        color: #c91e25;
     }
 
     /* Styling af boksen der kommer ind */ 
     .menu {
-        background-color: #f1ead1;
+        background-color: #c91e25;
         height: 100vh;
         width: 100%;
         max-width: 1024px;
         position: fixed;
-        top: 0;
         right: -1024px;
         font-size: 3rem;
         transition: .3s ease;
@@ -250,15 +306,17 @@ footer ul li {
     .ham-menu {
         height: 3rem;
         width: 3rem;
-        margin-left: 85vw;
+        margin-left: 85%;
         position: relative;
+        background-color: #c91e25;
+        margin-top: -3rem;
     }
     
 
     .ham-menu span {
         height: 5px;
         width: 100%;
-        background-color: #ff2800;
+        background-color: #ffffff;
         border-radius: 25px;
         position: absolute;
         top: 50%;
@@ -294,15 +352,15 @@ footer ul li {
     }
 
     /* Styling af main */ 
+
     main h4 {
         color: #ff2800;
         display: flex;
         align-items: center;
         text-align: center;
         justify-content: center;
-        font-weight: 100;
         font-size: 1.2rem;  
-        width: 80%;
+        width: 85%;
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 2rem;
@@ -314,9 +372,9 @@ footer ul li {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
         text-align: center;
-        margin-bottom: 5rem;
+        align-items: center;
+        width: 100%;
     }
 
     footer ul {
@@ -331,3 +389,13 @@ footer ul li {
         margin-top: 5rem;
     }
 }
+
+
+@media screen and (min-width: 395px) and (max-width: 425px) {
+
+
+    figure img {
+        height: 10rem   ;
+    }
+}
+
