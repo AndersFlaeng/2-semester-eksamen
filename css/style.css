@@ -154,6 +154,280 @@ li {
 
 /* Styling af begivenhed */ 
 
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.events-boks {
+    display: flex;
+    flex-direction: column;
+}
+section img {
+    height: 15rem;
+}
+
+section figure img {
+    height: auto;
+    width: 100%;
+}
+
+.taco-tuesday {
+    padding-top: 20rem;
+}
+
+.all-you-can-eat {
+    padding-top: 20rem;
+    padding-bottom: 10rem;
+}
+
+section h4 {
+    color: #ff2800;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.2rem;  
+    width: 34%;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-top: -2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+}
+
+.sociale-medier-begivenheder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sociale-medier-begivenheder i {
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: #f1ead1;
+    margin: 1rem;
+    color: #c91e25;
+}
+
+.sociale-medier-begivenheder i:hover {
+    transform: scale(1.5);
+}
+
+.sociale-medier-h4 {
+    margin-top: 20px;
+}
+
+img.tequila-knap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s ease;
+    width: 25vw;
+    margin-top: -8rem;
+}
+
+img.tequila-knap:hover {
+    transform: scale(1.1)
+}
+
+img.taco-knap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s ease;
+    width: 25vw;
+    margin-top: -8rem;
+}
+
+img.taco-knap:hover {
+    transform: scale(1.1)
+}
+
+img.eat-knap {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s ease;
+    width: 25vw;
+    margin-top: -18rem;
+    margin-bottom: 20rem;
+}
+
+img.eat-knap:hover {
+    transform: scale(1.1)
+}
+
+/* Styling af Om os */ 
+
+.om-os-billeder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img.om-os-billeder {
+    margin-top: 20rem;
+    height: 15rem;
+}
+
+.personerne {
+    padding-top: 5rem;
+    width: 100%;
+    height: auto;
+}
+
+.boks1-container {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 20rem;
+    padding-bottom: 5rem;
+}
+
+.benjamin-illustration {
+    width: 20rem;
+    margin-right: 30%;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.boks1 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.boks1 img {
+    width: 5rem;
+}
+
+.tekst-under {
+    margin-top: 10px;
+}
+
+.boks1-container h3 {
+        color: #ff2800;
+        font-weight: bold;
+        font-size: 1.5rem;  
+        font-family: "Montserrat", sans-serif;
+}
+
+.boks1-container p {
+        color: #ff2800;
+        font-size: 1.2rem;  
+        font-family: "Montserrat", sans-serif;
+        font-weight: normal;
+}
+
+.boks2-container {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+
+.nikolaj-illustration {
+    width: 20rem;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.boks2 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.boks2 img {
+    width: 5rem;
+}
+
+.tekst-under2 {
+    margin-top: 10px;
+
+}
+
+.boks2-container h3 {
+        color: #ff2800;
+        font-weight: bold;
+        font-size: 1.5rem;  
+        font-family: "Montserrat", sans-serif;
+}
+
+.boks2-container p {
+        color: #ff2800;
+        font-size: 1.2rem;  
+        font-family: "Montserrat", sans-serif;
+        font-weight: normal;
+}
+
+.boks3-container {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+
+.william-illustration {
+    width: 20rem;
+    margin-right: 30%;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.boks3 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.boks3 img {
+    width: 5rem;
+}
+
+.tekst-under2 {
+    margin-top: 10px;
+}
+
+.boks3-container h3 {
+        color: #ff2800;
+        font-weight: bold;
+        font-size: 1.5rem;  
+        font-family: "Montserrat", sans-serif;
+}
+
+.boks3-container p {
+        color: #ff2800;
+        font-size: 1.2rem;  
+        font-family: "Montserrat", sans-serif;
+        font-weight: normal;
+}
+
+
 
 /* Styling af footer */ 
 footer {
@@ -196,6 +470,7 @@ footer ul li {
     font-size: 2rem;
     cursor: pointer;
     background-color: #c91e25;
+    color: #ffffff;
 }
 
 .sociale-medier i:hover {
@@ -365,7 +640,81 @@ div.find-os-boks {
         margin-right: 10%;
         margin-top: 2rem;
     }
-    
+
+    /* Styling af begivenheder */ 
+    img.tequila-knap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transition: 0.3s ease;
+        width: 30vw;
+        margin-top: -1.5rem
+    }
+
+    img.taco-knap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transition: 0.3s ease;
+        width: 30vw;
+        margin-top: -1.5rem;
+    }
+
+    img.eat-knap {  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transition: 0.3s ease;
+        width: 30vw;
+        margin-top: -11.5rem;
+        margin-bottom: 10rem;
+    }
+
+
+    /* Styling af Om os */
+    .boks1-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benjamin-illustration {
+        margin-right: 0;
+    }
+
+    .content-right {
+        align-items: center;
+        text-align: center;
+    }
+
+    .boks1-container p {
+        width: 100%;
+    }
+
+
+
+
+
+    .boks2-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .nikolaj-illustration {
+        margin-right: 0;
+    }
+
+    .content-left {
+        align-items: center;
+        text-align: center;
+    }
+
+    .boks2-container p {
+        width: 100%;
+    }
+
     /* Styling af footer */ 
     /* Sætter mine footer i flex direction column fremfor row. Så de bliver vidst nedad */
     footer {
@@ -390,12 +739,49 @@ div.find-os-boks {
     }
 }
 
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    section img {
+        height: 6rem;
+    }
+}
+
 
 @media screen and (min-width: 395px) and (max-width: 425px) {
 
 
     figure img {
-        height: 10rem   ;
+        height: 10rem;
+    }
+
+    section img {
+        height: 7rem;
+    }
+
+    section h4 {
+        width: 85%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    /* Styling af om os */
+    .om-os-overskrift {
+        height: 8rem;
+    }
+
+    .benjamin-illustration {
+        height: 15rem;
+        width: auto;
+    }
+
+    .nikolaj-illustration {
+        height: 15rem;
+        width: auto;
+    }
+
+    .william-illustration {
+        height: 15rem;
+        width: auto;
     }
 }
+
 
