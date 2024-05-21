@@ -38,6 +38,7 @@ nav ul li {
     margin-top: -2.5rem;
     cursor: pointer;
     background-color: #c91e25;
+    transition: 0.3s ease;
 }
 
 /* Fjerner streger under mine menupunkter, samt ændre farven på teksten */
@@ -225,6 +226,7 @@ section h4 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    list-style-type: none;
 }
 
 /* Styler ikonerne, samt giver effekt når man holder over dem */
@@ -234,6 +236,7 @@ section h4 {
     background-color: #f1ead1;
     margin: 1rem;
     color: #c91e25;
+    transition: 0.3s ease;
 }
 
 /* Gør så de bliver større når man holder over ikonerne */
