@@ -725,7 +725,7 @@ img.kaktus {
 
 /* Gør så billedet fylder 100% af bredden */
 .error404 {
-    width: 100%;
+    width: 80%;
     height: auto;
     padding: 10rem;
 }
