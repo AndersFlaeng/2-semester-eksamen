@@ -715,15 +715,14 @@ img.kaktus {
 }
 
 .error404-tekst {
-    margin-bottom: 20rem;
     height: 10rem;
     margin-left: 60%;
 }
 /* Samme som over + jeg tilføjer en effekt når man holder over knappen */
 .error404-knap {
-    width: 80%;
+    width: 60%;
     height: auto;
-    padding-bottom: 10rem;
+    margin-bottom: 10rem;
     transition: 0.3s ease;
 }
 
