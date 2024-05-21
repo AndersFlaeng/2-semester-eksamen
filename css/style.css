@@ -309,16 +309,29 @@ img.eat-knap:hover {
 }
 
 /* Ændre størrelsen på billerne, samt sætter giver dem padding top, så de får mere afstand til elementerne over dem */
-img.om-os-billeder {
-    margin-top: 20rem;
-    height: 15rem;
+.om-os-overskrift {
+    width: 100%;
+    height: auto;
+    margin-top: -3rem;
 }
 
 /* Gør så billedet af personerne strækker sig til hele 100% af bredden. Samt giver padding top */
 .personerne {
-    padding-top: 5rem;
     width: 100%;
     height: auto;
+}
+
+.nye-amigos {
+    padding: 0;
+    margin: 0;
+    margin-top: -15rem;
+}
+article h5 {
+    color: #ff2800;
+        font-size: 1.5rem;  
+        font-family: "Montserrat", sans-serif;
+        padding: 1rem;
+        max-width: 60%;
 }
 
 /* Sætter i flexbox, samt ændre margin og padding */
@@ -506,6 +519,7 @@ h1 {
     color: #ff2800;
     font-size: 4rem;  
     font-family: "Montserrat", sans-serif;
+    padding-top: 5rem;
 }
 
 /* Styling af min aside p */
@@ -793,6 +807,7 @@ footer ul li {
     text-align: left;
     font-size: 1.5rem;
     background-color: #c91e25;
+    font-weight: 100;
 }
 
 /* Styler teksten til højre */
