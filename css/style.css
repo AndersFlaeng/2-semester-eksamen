@@ -366,7 +366,7 @@ article h5 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 15rem;
+    padding-top: 10rem;
     color: #ff2800;
     font-size: 2rem;
     font-family: "Montserrat", sans-serif;
@@ -378,7 +378,7 @@ article h5 {
     align-items: flex-start;
     margin-left: 20%;
     margin-right: 10%;
-    padding-top: 10rem;
+    padding-top: 5rem;
     padding-bottom: 5rem;
 }
 
@@ -508,6 +508,7 @@ article h5 {
 
 .tekst-under3 {
     margin-top: 10px;
+    width: 100%;
 }
 
 .boks3-container h3 {
@@ -523,6 +524,7 @@ article h5 {
         font-family: "Montserrat", sans-serif;
         font-weight: normal;
 }
+
 
 /* Styling af Kontakt */
 /* Gør så scrool-effekten når man klikker på Kontakt er smooth */ 
