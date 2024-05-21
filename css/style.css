@@ -17,6 +17,8 @@ nav {
     background-color: #c91e25;
     height: 7rem;
 }
+
+/* Sætter mine nav ul i display flex, samt row */ 
 nav ul {
     display: flex;
     flex-direction: row;
@@ -88,14 +90,17 @@ figure {
     padding-top: 10rem;
 }
 
+/* Ændre Menukort billede størrelse */ 
 figure img {
     height: 15rem;
 }
 
+/* Sætter padding-bottom så der kommer mellemrum mellem tingene */ 
 main {
     padding-bottom: 15rem;
 }
 
+/* Styler mine main h3, samt sætter dem i display flex */ 
 main h3 {
     color: #ff2800;
     font-weight: bold;
@@ -108,6 +113,7 @@ main h3 {
     font-family: "Montserrat", sans-serif;
 }
 
+/* Styler mine main ul, samt sætter dem i display flex */ 
 main ul {
     display: flex;
     flex-direction: column;
@@ -121,10 +127,13 @@ main ul {
     font-family: "Montserrat", sans-serif;
 }
 
+/* Putter margin top så der kommer mellemrum mellem tekst */
 main ul li {
     margin-top: 1.25rem;
 }
 
+
+/* Styler mine main h4, samt sætter dem i display flex */ 
 main h4 {
     color: #ff2800;
     display: flex;
@@ -144,9 +153,12 @@ li {
     font-family: "Montserrat", sans-serif;
 }
 
+/* Putter margin-top så den kommer tættere på teksten ovenover */
 .taco-hat {
     margin-top: -5rem;
 }
+
+/* Ændre størrelsen på taco hatten */
 .taco-hat img {
     height: 10rem;
 }
@@ -154,6 +166,7 @@ li {
 
 /* Styling af begivenhed */ 
 
+/* Sætter min section i display flex */ 
 section {
     display: flex;
     flex-direction: column;
@@ -163,28 +176,35 @@ section {
     padding-top: 10rem;
 }
 
+/* sætter evenboks i flex */
 .events-boks {
     display: flex;
     flex-direction: column;
 }
+
+/* Æmndre section img's størrelse */
 section img {
     height: 15rem;
 }
 
+/* Sætter bredden til at være 100% så den fylder helt ud til siden */
 section figure img {
     height: auto;
     width: 100%;
 }
 
+/* Sætter padding top, så der kommer afstand mellem elementerne */ 
 .taco-tuesday {
     padding-top: 20rem;
 }
 
+/* Samme som over */
 .all-you-can-eat {
     padding-top: 20rem;
     padding-bottom: 10rem;
 }
 
+/* Styler mine section h4, samt sætter dem i display flex */ 
 section h4 {
     color: #ff2800;
     display: flex;
@@ -200,12 +220,14 @@ section h4 {
     font-weight: normal;
 }
 
+/* Styler mine sociale medier ikoner, så de kommer i flex row direction */ 
 .sociale-medier-begivenheder {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
+/* Styler ikonerne, samt giver effekt når man holder over dem */
 .sociale-medier-begivenheder i {
     font-size: 2rem;
     cursor: pointer;
@@ -214,14 +236,17 @@ section h4 {
     color: #c91e25;
 }
 
+/* Gør så de bliver større når man holder over ikonerne */
 .sociale-medier-begivenheder i:hover {
     transform: scale(1.5);
 }
 
+/* Sætter margin-top så de får lidt afstand til teksten over */
 .sociale-medier-h4 {
     margin-top: 20px;
 }
 
+/* Sætter knappen i flexbox, samt tilføjer effekt når man holder over dem */
 img.tequila-knap {
     display: flex;
     justify-content: center;
@@ -232,10 +257,12 @@ img.tequila-knap {
     margin-top: -8rem;
 }
 
+/* Gør så knappen bliver større når man holder over den */
 img.tequila-knap:hover {
     transform: scale(1.1)
 }
 
+/* Samme som første knap */
 img.taco-knap {
     display: flex;
     justify-content: center;
@@ -246,10 +273,12 @@ img.taco-knap {
     margin-top: -8rem;
 }
 
+/* Samme som første knap */
 img.taco-knap:hover {
     transform: scale(1.1)
 }
 
+/* Samme som første knap */
 img.eat-knap {  
     display: flex;
     justify-content: center;
@@ -261,12 +290,13 @@ img.eat-knap {
     margin-bottom: 20rem;
 }
 
+/* Samme som første knap */
 img.eat-knap:hover {
     transform: scale(1.1)
 }
 
 /* Styling af Om os */ 
-
+/* Sætter om os billederne i flexbox */
 .om-os-billeder {
     display: flex;
     flex-direction: column;
@@ -275,17 +305,20 @@ img.eat-knap:hover {
     text-align: center;
 }
 
+/* Ændre størrelsen på billerne, samt sætter giver dem padding top, så de får mere afstand til elementerne over dem */
 img.om-os-billeder {
     margin-top: 20rem;
     height: 15rem;
 }
 
+/* Gør så billedet af personerne strækker sig til hele 100% af bredden. Samt giver padding top */
 .personerne {
     padding-top: 5rem;
     width: 100%;
     height: auto;
 }
 
+/* Sætter i flexbox, samt ændre margin og padding */
 .boks1-container {
     display: flex;
     align-items: flex-start;
@@ -295,30 +328,36 @@ img.om-os-billeder {
     padding-bottom: 5rem;
 }
 
+/* Ændre størrelsen på illustrationen af manden */
 .benjamin-illustration {
     width: 20rem;
     margin-right: 30%;
 }
 
+/* Sætter teksten og det til højre i flexbox */
 .content-right {
     display: flex;
     flex-direction: column;
 }
 
+/* Sætter boks1 i flexbox */
 .boks1 {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
+/* Ændre størrelsen på det lille billede */
 .boks1 img {
     width: 5rem;
 }
 
+/* Sætter afstand mellem teksten under og det over */
 .tekst-under {
     margin-top: 10px;
 }
 
+/* styling af boks1-container h3 */
 .boks1-container h3 {
         color: #ff2800;
         font-weight: bold;
@@ -326,6 +365,7 @@ img.om-os-billeder {
         font-family: "Montserrat", sans-serif;
 }
 
+/* Styling af boks1-container p */
 .boks1-container p {
         color: #ff2800;
         font-size: 1.2rem;  
@@ -333,6 +373,7 @@ img.om-os-billeder {
         font-weight: normal;
 }
 
+/* Samme som hele boksen ovenover */ 
 .boks2-container {
     display: flex;
     align-items: flex-start;
@@ -380,6 +421,7 @@ img.om-os-billeder {
         font-weight: normal;
 }
 
+/* Boks 3 begynder her */ 
 .boks3-container {
     display: flex;
     align-items: flex-start;
@@ -428,12 +470,13 @@ img.om-os-billeder {
 }
 
 /* Styling af Kontakt */
+/* Gør så scrool-effekten når man klikker på Kontakt er smooth */ 
 html {
     scroll-behavior: smooth;
 }
 
 /* Styling af Forside (index.html) */
-
+/* Sætter aside i flexbox, samt giver padding top og bottom */
 aside{
     display: flex;
     flex-direction: column;
@@ -441,23 +484,28 @@ aside{
     align-items: center;
     text-align: center;
     padding-top: 10rem;
-    padding-bottom: 20rem;
+    padding-bottom: 10rem;
 }
 
+/* Ændre størrelsen på logo-tekst */
 img.logo-tekst {
     height: 15rem;
 }
 
+/* Gør så illustrationen på forsiden dækker hele skærmen i bredden */
 img.forside-illustration {
     max-width: 100%;
+    padding: 0;
 }
 
+/* Styling af min h1 */
 h1 {
     color: #ff2800;
     font-size: 4rem;  
     font-family: "Montserrat", sans-serif;
 }
 
+/* Styling af min aside p */
 aside p {
     color: #ff2800;
     font-size: 2rem;  
@@ -468,14 +516,15 @@ aside p {
     max-width: 50%;
 }
 
+/* Sætter min image-text-container i flexbox */
 .image-text-container {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    
 }
 
+/* Styling af mexi-hatten, samt sætter den til absolute så jeg kan rykke med den over de andre elementer uden det påvirker dem */
 img.mexi-hat {
     height: 10rem;
     position: absolute;
@@ -483,10 +532,12 @@ img.mexi-hat {
     transform: rotate(10deg);
 }
 
+/* Ændre farven */
 .highlight {
     color: #c91e25;
 }
 
+/* Sætter min button.container i flexbox */
 .button.container {
     display: flex;
     flex-direction: row;
@@ -495,6 +546,7 @@ img.mexi-hat {
     text-align: center;
 }
 
+/* Samme som mexi-hatten ovenover lidt oppe */
 img.mexi-flaske{
     height: 20rem;
     position: absolute;
@@ -503,33 +555,40 @@ img.mexi-flaske{
     margin-top: -5rem;
 }
 
-
+/* Styling af knappen, samt sætter effekt når man holder over den */
 img.menukort-knap {
-    height: 10rem;
+    height: 25rem;
+    margin-top: 25px;
     transition: 0.3s ease;
 }
 
+/* Gør knappen større ved hover */
 img.menukort-knap:hover {
 transform: scale(1.1)
 }
 
+/* Sætter overskrift-sektion i flexbox */
 .overskrift-sektion {
-    padding-top: 20rem;
+    padding-top: 1rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     text-align: center;
     margin-left: 11%;
+    padding-top: 15rem;
 }
 
+/* Sætter margin-right så den ryger længere ud til højre på siden */
 .overskrift-sektion h3 {
     margin-right: 50px;
 }
 
+/* Ændre størrelsen på kaktussen */
 img.kaktus {
     width: 5rem;
 }
 
+/* Sætter container2 i flexbox */ 
 .container2 {
     display: flex;
     flex-direction: row;
@@ -537,6 +596,7 @@ img.kaktus {
     margin-left: 10%;
 }
 
+/* Styling af boksene under åbningstider, samt sætter dem i flexbox */
 .box {
     background-color: white;
     border: 5px solid #000;
@@ -553,10 +613,12 @@ img.kaktus {
     font-family: "Montserrat", sans-serif;
 }
 
+/* Fjerner margin fra forside-main h3 */
 .forside-main h3 {
     margin: 0;
 }
 
+/* Sætter maps-boks i flexbox */
 .maps-boks {
     display: flex;
     flex-direction: column;
@@ -565,27 +627,36 @@ img.kaktus {
     margin-left: 20rem;
 }
 
+/* Sætter billedsektionen i display grid så den viser 3 billeder og gør det 1 gang. Sætter margin left og right 10% så de ikke går helt ud til kanten */
 .billede-ramme {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-left: 10%;
+    margin-right: 10%;
   }
   
+  /* Laver mellemrum mellem billederne */ 
   .billede {
     padding: 10px;
   }
   
+  /* Gør så billederne fylder deres container helt ud, samt gør så de får lidt runde kanter */
   .billede img {
-    width: 100%; /* Gør billederne fylder deres container */
-    height: auto; /* Bevar billedernes aspektratio */
+    width: 100%;
+    height: auto;
     border-radius: 5%;
   }
 
+/* Samme som over */
   .billede-ramme2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-bottom: 10rem;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
+  /* Styler teksten over billederne, samt sætter det i flexbox */
   .billede-overskrift {
     display: flex;
     flex-direction: column;
@@ -593,12 +664,15 @@ img.kaktus {
     align-items: center;
     text-align: center;
   }
+
+  /* Styler billeder-overskrift h3 */
     .billede-overskrift h3 {
     color: #ff2800;
     font-size: 4rem;  
     font-family: "Montserrat", sans-serif;
 }
 
+/* Styler billede-overskrift h5 */ 
     .billede-overskrift h5 {
     color: #c91e25;
     font-size: 2rem;  
@@ -609,18 +683,38 @@ img.kaktus {
     padding-bottom: 10rem;
     max-width: 50%;
 }
-  
 
+/* Styling af reservér bord siden */
+/* Sætter siden i flexbox */
+.error {
+    display: flex;
+    flex-direction: column;
+}
 
+/* Gør så billedet fylder 100% af bredden */
+.error404 {
+    width: 100%;
+    height: auto;
+}
+/* Samme som over + jeg tilføjer en effekt når man holder over knappen */
+.error404-knap {
+    width: 100%;
+    height: auto;
+    transition: 0.3s ease;
+}
 
+/* Gør så knappen bliver større ved hover */
+.error404-knap:hover {
+    transform: scale(1.1);
+}
 
 /* Styling af footer */ 
+/* Styling af footer, og sætter footer i flexbox */
 footer {
     background-color: #c91e25;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: top;
     text-align: center;
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
@@ -628,29 +722,34 @@ footer {
     padding-bottom: 10rem;
 }
 
+/* Styling af footer h4 */
 footer h4 {
     font-size: 1.5rem;
     background-color: #c91e25;
 }
 
+/* Styling af footer ul */
 footer ul {
     font-size: 1.2rem;
     margin-top: 20px;
     background-color: #c91e25;
 }
 
+/* Styling af footer ul li */
 footer ul li {
     margin-top: 10px;
     list-style-type: none;
     background-color: #c91e25;
 }
 
+/* Sætter sociale-medier ikoner i flex direction row, da de skal være vandrette og ikke lodrette som det andet */
 .sociale-medier {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
+/* Styler sociale medie ikonerne */
 .sociale-medier i {
     font-size: 2rem;
     cursor: pointer;
@@ -658,20 +757,24 @@ footer ul li {
     color: #ffffff;
 }
 
+/* Sætter hover effekt på */ 
 .sociale-medier i:hover {
     transform: scale(1.5);
 }
 
+/* Sætter margin top så de får afstand til teksten over */ 
 .sociale-medier-h4 {
     margin-top: 20px;
 }
 
+/* Sætter kontakt i flexbox */ 
 .kontakt {
     display: flex;
     flex-direction: column;
     align-items: start;
 }
 
+/* Sætter åbningstider table i flexbox */
 .åbningstider table {
     display: flex;
     justify-content: center;
@@ -680,24 +783,27 @@ footer ul li {
     width: 50%;
 }
 
-
+/* Styler teksten til venstre */
 .åbningstider th {
     text-align: left;
     font-size: 1.5rem;
     background-color: #c91e25;
 }
 
+/* Styler teksten til højre */
 .åbningstider td {
     text-align: right;
     font-size: 1.5rem;
     background-color: #c91e25;
 }
 
+/* Sætter margin left så den ikke går helt ud til kanten til venstre */ 
 table.åbningstider {
     background-color: #c91e25;
     margin-left: 10%;
 }
 
+/* Samme som over. bare modsat */
 div.kontakt-boks {
     background-color: #c91e25;
     margin-right: 10%;
@@ -712,7 +818,6 @@ div.find-os-boks {
 /* Dermed gælder disse ændringer kun indenfor målene 395px til 1024px */ 
 @media screen and (min-width: 395px) and (max-width: 1024px) {
     /* Styling af navbar */ 
-
     /* Gør så mine oprindelig navbar punkter forsvinder */
     .navbar-punkter {
         display: none;
@@ -771,7 +876,7 @@ div.find-os-boks {
         margin-top: -3rem;
     }
     
-
+    /* Styling af min burgermenu, samt sætter effekt når man trykker på den */
     .ham-menu span {
         height: 5px;
         width: 100%;
@@ -811,7 +916,7 @@ div.find-os-boks {
     }
 
     /* Styling af main */ 
-
+    /* Styling af min main h4 */
     main h4 {
         color: #ff2800;
         display: flex;
@@ -826,6 +931,7 @@ div.find-os-boks {
     }
 
     /* Styling af begivenheder */ 
+    /* Styling af tequila knappen */
     img.tequila-knap {
         display: flex;
         justify-content: center;
@@ -836,6 +942,7 @@ div.find-os-boks {
         margin-top: -1.5rem
     }
 
+    /* Styling af Taco knappen */
     img.taco-knap {
         display: flex;
         justify-content: center;
@@ -846,6 +953,7 @@ div.find-os-boks {
         margin-top: -1.5rem;
     }
 
+    /* Styling af all you can eat knap */
     img.eat-knap {  
         display: flex;
         justify-content: center;
@@ -859,15 +967,18 @@ div.find-os-boks {
 
 
     /* Styling af Om os */
+    /* Sætter boks1-container i flex direction column fremfor row, så det ser bedre ud på mindre skærme */
     .boks1-container {
         flex-direction: column;
         align-items: center;
     }
-
+    
+    /* Fjerner margin fra billedet */
     .benjamin-illustration {
         margin-right: 0;
     }
 
+    /* Centrer indholdet der stod ude til højre */
     .content-right {
         align-items: center;
         text-align: center;
@@ -877,11 +988,13 @@ div.find-os-boks {
         width: 100%;
     }
 
+    /* Samme som over, men her column-reverse */
     .boks2-container {
         flex-direction: column-reverse;
         align-items: center;
     }
 
+    /* Samme som over */
     .nikolaj-illustration {
         margin-right: 0;
     }
@@ -917,8 +1030,7 @@ div.find-os-boks {
     }
 
     /* Styling af Forside */ 
-
-
+    /* Sætter i felx wrap */
     .container2 {
         display: flex;
         flex-wrap: wrap;
@@ -926,12 +1038,14 @@ div.find-os-boks {
         max-width: 100%;
     }
 
+    /* Sætter width til 50%, så min google maps-boks ryger under */
     .row {
         width: 50%;
         padding: 10px;
 
     }
 
+    /* Sætter maks-widt til 100% så den fylder hele bredden */
     .maps-boks {
         max-width: 100%;
         margin: 0;
@@ -948,6 +1062,7 @@ div.find-os-boks {
         width: 100%;
     }
 
+    /* Søtter margin top på de næste 3 elemeneter så der kommer mellemrum mellem dem */
     footer ul {
         margin-top: 0.8rem;
     }
@@ -960,6 +1075,7 @@ div.find-os-boks {
         margin-top: 5rem;
     }
 
+    /* Sætter kontakt elementerne til at være i midten */
     .kontakt {
         justify-content: center;
         align-items: center;
@@ -968,23 +1084,24 @@ div.find-os-boks {
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
+    /* Ændre størrelsen på section img mellem disse skærmstørrelse */
     section img {
         height: 6rem;
     }
 }
 
-
 @media screen and (min-width: 395px) and (max-width: 425px) {
-
-
+    /* Ændre figure img størrelse */
     figure img {
         height: 10rem;
     }
 
+    /* Ændre section img størrelse */
     section img {
         height: 7rem;
     }
 
+    /* Ændre section h4, så den har margin left og right 10% */
     section h4 {
         width: 85%;
         margin-left: 10%;
@@ -992,30 +1109,37 @@ div.find-os-boks {
     }
 
     /* Styling af om os */
+    /* Styling af om-os-overskrift størrelse */
     .om-os-overskrift {
         height: 8rem;
     }
 
+    /* Ændre størrelsen på billedet */
     .benjamin-illustration {
         height: 15rem;
         width: auto;
     }
 
+    /* Samme som over */
     .nikolaj-illustration {
         height: 15rem;
         width: auto;
     }
 
+    /* Samme som over */
     .william-illustration {
         height: 15rem;
         width: auto;
     }
 
     /* Styling af forside */
-    .logo-tekst {
-        width: 100%;
+    /* Ændre logo-tekst så det kun fylder 80% af bredden */
+    img.logo-tekst {
+        width: 80%;
+        height: auto;
     }
 
+    /* ændre maps-billedet */
     .maps-billede {
         width: 20rem;
         height: 15rem;
@@ -1023,38 +1147,58 @@ div.find-os-boks {
         padding-top: 5rem;
     }
 
+    /* Ændre aside h1 størrelse */
     aside h1 {
         font-size: 2rem;
     }
 
+    /* Ændre aside p størrelse */
     aside p {
         font-size: 1.2rem;
     }
 
+    /* Ændre mexi-hat størrelse */
     img.mexi-hat {
         height: 2rem;
     }
 
+    /* Ændre mexi-flaske størrelse */
     img.mexi-flaske {
         height: 5rem;
         margin-left: -5rem;
         margin-top: -1rem;
     }
 
+    /* Ændre menukort-knap størrelse */
     img.menukort-knap {
         height: 5rem;
     }
 
+    /* Ændre størrelsen på h3 */
     .billede-overskrift h3 {
         font-size: 2rem;
     }
 
+    /* Ændre størrelsen på h5 */
     .billede-overskrift h5 {
         font-size: 1.2rem;
     }
 
+    /* Sætter boksen til at have en width på 150px */
     .box {
         width: 150px;
+    }
+
+    /* Sætter billede-ramme i flex direction column, så billederne bliver vidst 1 efter 1 nedaf */
+    .billede-ramme {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Sætter billede-ramme i flex direction column */
+    .billede-ramme2 {
+        display: flex;
+        flex-direction: column;
     }
 }
 

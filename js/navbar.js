@@ -11,11 +11,7 @@ hamMenu.addEventListener('click', () => {
 
 
 
-
-
-document.querySelector('a[href="#footer"]').addEventListener('click', function (e) {
-    e.preventDefault();
-    document.querySelector('#footer').scrollIntoView({
-        behavior: 'smooth'
-    });
+document.getElementById('kontakt-link').addEventListener('click', function(event) {
+    event.preventDefault(); // Forhindre standard link-adfærd
+    document.getElementById('kontakt').scrollIntoView({ behavior: 'smooth' });
 });
