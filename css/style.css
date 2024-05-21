@@ -320,6 +320,7 @@ img.eat-knap:hover {
     width: 100%;
     height: auto;
 }
+
 article h5 {
     color: #ff2800;
         font-size: 1.5rem;  
@@ -505,7 +506,7 @@ img.logo-tekst {
 
 /* Gør så illustrationen på forsiden dækker hele skærmen i bredden */
 img.forside-illustration {
-    max-width: 100%;
+    max-width: 80%;
     padding: 0;
 }
 
