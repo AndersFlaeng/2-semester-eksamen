@@ -628,6 +628,7 @@ img.kaktus {
     justify-content: space-evenly;
     margin-right: 10%;
     margin-left: 20rem;
+    max-width: 100%;
 }
 
 /* Sætter billedsektionen i display grid så den viser 3 billeder og gør det 1 gang. Sætter margin left og right 10% så de ikke går helt ud til kanten */
@@ -758,6 +759,7 @@ footer ul li {
     cursor: pointer;
     background-color: #c91e25;
     color: #ffffff;
+    transition: 0.3s ease;
 }
 
 /* Sætter hover effekt på */ 
