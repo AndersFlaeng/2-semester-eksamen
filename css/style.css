@@ -85,12 +85,32 @@ a.logo {
     transition: transform 0.3s ease-in-out;
 }
 
-/* Drejningseffekt ved hover */
-#logo.rotate {
-    transform: rotate(360deg);
+@keyframes rotateBackAndForth {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(15deg);
+    }
+    75% {
+        transform: rotate(-15deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
 }
 
+#shakeLogo.rotating {
+    animation: rotateBackAndForth 2s linear infinite;
+}
 
+#shakeLogo.rotating-right {
+    animation: rotateRight 2s linear infinite;
+}
+
+#shakeLogo.rotating-left {
+    animation: rotateLeft 2s linear infinite;
+}
 
 /* Menukort styling begynder her */ 
 /* Main */

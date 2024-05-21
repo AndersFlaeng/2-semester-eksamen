@@ -13,34 +13,17 @@ hamMenu.addEventListener('click', () => {
 
 
 
+document.addEventListener("DOMContentLoaded", function() {
+    var logo = document.getElementById('shakeLogo');
 
+    function startRotation() {
+        logo.classList.add('rotating');
+    }
 
-// Vælg dit logoelement
-const logo = document.getElementById('shakeLogo');
+    function stopRotation() {
+        logo.classList.remove('rotating');
+    }
 
-// Funktion til at rotere logoet fra højre mod venstre, kun når musen holder over det
-function rotateLogo() {
-    logo.style.transition = 'transform 0.5s ease';
-    logo.style.transform = 'rotate(-10deg)';
-    // Vent 0.5 sekunder før vi nulstiller rotationen
-    setTimeout(() => {
-        logo.style.transform = 'rotate(10deg)';
-        // Vent yderligere 0.5 sekunder før vi roterer igen
-        setTimeout(() => {
-            logo.style.transition = 'none'; // Fjern transition for en mere glidende rotation
-            logo.style.transform = 'rotate(0deg)';
-            rotateLogo(); // Kald funktionen igen for at gentage rotationen
-        }, 500);
-    }, 500);
-}
-
-// Tilføj event listener til at lytte efter, når musen holder over logoet
-logo.addEventListener('mouseover', () => {
-    rotateLogo(); // Kald funktionen når musen holder over logoet
-});
-
-// Tilføj event listener til at lytte efter, når musen fjernes fra logoet
-logo.addEventListener('mouseout', () => {
-    logo.style.transition = 'none'; // Fjern transition når musen fjernes
-    logo.style.transform = 'rotate(0deg)'; // Nulstil rotationen tilbage til normal
+    logo.addEventListener('mouseenter', startRotation);
+    logo.addEventListener('mouseleave', stopRotation);
 });
