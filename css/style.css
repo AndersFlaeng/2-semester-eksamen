@@ -81,6 +81,15 @@ a.logo {
     display: none;
 }
 
+#logo {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Drejningseffekt ved hover */
+#logo.rotate {
+    transform: rotate(360deg);
+}
+
 /* Menukort styling begynder her */ 
 /* Main */
 figure {
@@ -720,7 +729,7 @@ img.kaktus {
 }
 /* Samme som over + jeg tilføjer en effekt når man holder over knappen */
 .error404-knap {
-    width: 60%;
+    width: 40%;
     height: auto;
     margin-bottom: 10rem;
     transition: 0.3s ease;

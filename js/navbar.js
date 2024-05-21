@@ -10,8 +10,14 @@ hamMenu.addEventListener('click', () => {
 
 
 
+document.addEventListener('DOMContentLoaded', function() {
+    var logo = document.getElementById('#logo');
 
-document.getElementById('kontakt-link').addEventListener('click', function(event) {
-    event.preventDefault(); // Forhindre standard link-adfærd
-    document.getElementById('kontakt').scrollIntoView({ behavior: 'smooth' });
+    logo.addEventListener('mouseover', function() {
+        logo.classList.add('rotate');
+    });
+
+    logo.addEventListener('mouseout', function() {
+        logo.classList.remove('rotate');
+    });
 });
