@@ -916,6 +916,27 @@ div.find-os-boks {
         width: 100%;
     }
 
+    /* Styling af Forside */ 
+
+
+    .container2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .row {
+        width: 50%;
+        padding: 10px;
+
+    }
+
+    .maps-boks {
+        max-width: 100%;
+        margin: 0;
+    }
+
     /* Styling af footer */ 
     /* Sætter mine footer i flex direction column fremfor row. Så de bliver vidst nedad */
     footer {
@@ -937,6 +958,12 @@ div.find-os-boks {
 
     footer h4 {
         margin-top: 5rem;
+    }
+
+    .kontakt {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
 
@@ -982,6 +1009,52 @@ div.find-os-boks {
     .william-illustration {
         height: 15rem;
         width: auto;
+    }
+
+    /* Styling af forside */
+    .logo-tekst {
+        width: 100%;
+    }
+
+    .maps-billede {
+        width: 20rem;
+        height: 15rem;
+        margin-right: 17.5rem;
+        padding-top: 5rem;
+    }
+
+    aside h1 {
+        font-size: 2rem;
+    }
+
+    aside p {
+        font-size: 1.2rem;
+    }
+
+    img.mexi-hat {
+        height: 2rem;
+    }
+
+    img.mexi-flaske {
+        height: 5rem;
+        margin-left: -5rem;
+        margin-top: -1rem;
+    }
+
+    img.menukort-knap {
+        height: 5rem;
+    }
+
+    .billede-overskrift h3 {
+        font-size: 2rem;
+    }
+
+    .billede-overskrift h5 {
+        font-size: 1.2rem;
+    }
+
+    .box {
+        width: 150px;
     }
 }
 

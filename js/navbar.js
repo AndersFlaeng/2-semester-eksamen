@@ -13,11 +13,9 @@ hamMenu.addEventListener('click', () => {
 
 
 
-document.querySelectorAll('a[href^="#"').forEach(anchor => {
-    anchor.addEventListener("click", function(e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute("href")).scroolIntoView({
-            behavior : "smooth"
-        });
+document.querySelector('a[href="#footer"]').addEventListener('click', function (e) {
+    e.preventDefault();
+    document.querySelector('#footer').scrollIntoView({
+        behavior: 'smooth'
     });
 });
