@@ -550,7 +550,7 @@ aside p {
 
 /* Styling af mexi-hatten, samt sætter den til absolute så jeg kan rykke med den over de andre elementer uden det påvirker dem */
 img.mexi-hat {
-    height: 10%;
+    height: 15%;
     position: absolute;
     margin-left: 70%;
     transform: rotate(10deg);
@@ -581,7 +581,7 @@ img.mexi-flaske{
 
 /* Styling af knappen, samt sætter effekt når man holder over den */
 img.menukort-knap {
-    height: 5rem;
+    height: 4rem;
     margin-top: 50px;
     transition: 0.3s ease;
 }
