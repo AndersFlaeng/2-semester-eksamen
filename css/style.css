@@ -320,12 +320,6 @@ img.eat-knap:hover {
     width: 100%;
     height: auto;
 }
-
-.nye-amigos {
-    padding: 0;
-    margin: 0;
-    margin-top: -15rem;
-}
 article h5 {
     color: #ff2800;
         font-size: 1.5rem;  
@@ -339,7 +333,7 @@ article h5 {
     display: flex;
     align-items: flex-start;
     margin-left: 20%;
-    margin-right: 20%;
+    margin-right: 10%;
     padding-top: 20rem;
     padding-bottom: 5rem;
 }
@@ -371,6 +365,7 @@ article h5 {
 /* Sætter afstand mellem teksten under og det over */
 .tekst-under {
     margin-top: 10px;
+    max-width: 100%;
 }
 
 /* styling af boks1-container h3 */
@@ -420,7 +415,7 @@ article h5 {
 
 .tekst-under2 {
     margin-top: 10px;
-    max-width: 60%;
+    max-width: 80%;
 }
 
 .boks2-container h3 {
@@ -442,7 +437,7 @@ article h5 {
     display: flex;
     align-items: flex-start;
     margin-left: 20%;
-    margin-right: 20%;
+    margin-right: 10%;
     padding-top: 10rem;
     padding-bottom: 5rem;
 }
@@ -467,7 +462,7 @@ article h5 {
     width: 5rem;
 }
 
-.tekst-under2 {
+.tekst-under3 {
     margin-top: 10px;
 }
 
@@ -988,6 +983,8 @@ div.find-os-boks {
 
     /* Styling af Om os */
     /* Sætter boks1-container i flex direction column fremfor row, så det ser bedre ud på mindre skærme */
+
+    
     .boks1-container {
         flex-direction: column;
         align-items: center;
@@ -1130,8 +1127,21 @@ div.find-os-boks {
 
     /* Styling af om os */
     /* Styling af om-os-overskrift størrelse */
-    .om-os-overskrift {
+    .nye-amigos{
         height: 8rem;
+        margin: 0;
+    }
+
+    article h5 {
+        color: #ff2800;
+            font-size: 1rem;  
+            font-family: "Montserrat", sans-serif;
+            padding: 1rem;
+            max-width: 80%;
+    }
+
+    .boks1-container {
+        padding-top: 10rem;
     }
 
     /* Ændre størrelsen på billedet */
