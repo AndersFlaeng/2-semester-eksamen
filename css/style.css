@@ -319,7 +319,8 @@ img.eat-knap:hover {
 .personerne {
     width: 100%;
     height: auto;
-    margin-top: -8;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 article h5 {
@@ -328,7 +329,6 @@ article h5 {
     font-family: "Montserrat", sans-serif;
     padding: 1rem;
     max-width: 60%;
-    margin-top: -10rem;
 }
 
 /* Sætter i flexbox, samt ændre margin og padding */
@@ -995,9 +995,6 @@ div.find-os-boks {
     /* Styling af Om os */
     /* Sætter boks1-container i flex direction column fremfor row, så det ser bedre ud på mindre skærme */
 
-    article h5 {
-        margin-top: 0;
-    }
 
     .boks1-container {
         flex-direction: column;
