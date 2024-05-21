@@ -363,7 +363,7 @@ img.om-os-billeder {
 
 .tekst-under2 {
     margin-top: 10px;
-
+    max-width: 60%;
 }
 
 .boks2-container h3 {
@@ -426,6 +426,191 @@ img.om-os-billeder {
         font-family: "Montserrat", sans-serif;
         font-weight: normal;
 }
+
+/* Styling af Kontakt */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Styling af Forside (index.html) */
+
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 20rem;
+}
+
+img.logo-tekst {
+    height: 15rem;
+}
+
+img.forside-illustration {
+    max-width: 100%;
+}
+
+h1 {
+    color: #ff2800;
+    font-size: 4rem;  
+    font-family: "Montserrat", sans-serif;
+}
+
+aside p {
+    color: #ff2800;
+    font-size: 2rem;  
+    font-family: "Montserrat", sans-serif;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 5rem;
+    max-width: 50%;
+}
+
+.image-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+img.mexi-hat {
+    height: 10rem;
+    position: absolute;
+    margin-left: 70%;
+    transform: rotate(10deg);
+}
+
+.highlight {
+    color: #c91e25;
+}
+
+.button.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img.mexi-flaske{
+    height: 20rem;
+    position: absolute;
+    margin-left: -35rem;
+    transform: rotate(-30deg);
+    margin-top: -5rem;
+}
+
+
+img.menukort-knap {
+    height: 10rem;
+    transition: 0.3s ease;
+}
+
+img.menukort-knap:hover {
+transform: scale(1.1)
+}
+
+.overskrift-sektion {
+    padding-top: 20rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin-left: 11%;
+}
+
+.overskrift-sektion h3 {
+    margin-right: 50px;
+}
+
+img.kaktus {
+    width: 5rem;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 10%;
+}
+
+.box {
+    background-color: white;
+    border: 5px solid #000;
+    height: 5rem;
+    width: 20rem;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    color: #ff2800;
+    font-size: 1.5rem;  
+    font-family: "Montserrat", sans-serif;
+}
+
+.forside-main h3 {
+    margin: 0;
+}
+
+.maps-boks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 10%;
+    margin-left: 20rem;
+}
+
+.billede-ramme {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .billede {
+    padding: 10px;
+  }
+  
+  .billede img {
+    width: 100%; /* Gør billederne fylder deres container */
+    height: auto; /* Bevar billedernes aspektratio */
+    border-radius: 5%;
+  }
+
+  .billede-ramme2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 10rem;
+  }
+
+  .billede-overskrift {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+    .billede-overskrift h3 {
+    color: #ff2800;
+    font-size: 4rem;  
+    font-family: "Montserrat", sans-serif;
+}
+
+    .billede-overskrift h5 {
+    color: #ff2800;
+    font-size: 2rem;  
+    font-family: "Montserrat", sans-serif;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 2.5rem;
+    padding-bottom: 10rem;
+    max-width: 50%;
+}
+  
+
 
 
 
@@ -521,7 +706,6 @@ div.kontakt-boks {
 div.find-os-boks {
     background-color: #c91e25;
 }
-
 
 
 /* Breakpoint for skærmstørrelse. Som har målene 395px til 1024px */ 
@@ -693,10 +877,6 @@ div.find-os-boks {
         width: 100%;
     }
 
-
-
-
-
     .boks2-container {
         flex-direction: column-reverse;
         align-items: center;
@@ -712,6 +892,27 @@ div.find-os-boks {
     }
 
     .boks2-container p {
+        width: 100%;
+    }
+
+    .tekst-under2 {
+        max-width: 100%;
+    }
+    .boks3-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .william-illustration {
+        margin-right: 0;
+    }
+
+    .content-right {
+        align-items: center;
+        text-align: center;
+    }
+
+    .boks3-container p {
         width: 100%;
     }
 
