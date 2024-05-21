@@ -732,15 +732,19 @@ img.kaktus {
 
 /* Samme som over + jeg tilføjer en effekt når man holder over knappen */
 .error404-knap {
-    width: 40%;
+    width: 60%;
     height: auto;
-    margin-bottom: 10rem;
     transition: 0.3s ease;
 }
 
 /* Gør så knappen bliver større ved hover */
 .error404-knap:hover {
     transform: scale(1.1);
+}
+
+.error404-tekst {
+    width: 40%;
+    height: auto;
 }
 
 /* Styling af footer */ 
@@ -754,7 +758,6 @@ footer {
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
     padding-top: 10rem;
-    
 }
 
 /* Styling af footer h4 */
