@@ -529,7 +529,7 @@ aside p {
 
 /* Styling af mexi-hatten, samt sætter den til absolute så jeg kan rykke med den over de andre elementer uden det påvirker dem */
 img.mexi-hat {
-    height: 10rem;
+    height: 10%;
     position: absolute;
     margin-left: 70%;
     transform: rotate(10deg);
@@ -551,9 +551,9 @@ img.mexi-hat {
 
 /* Samme som mexi-hatten ovenover lidt oppe */
 img.mexi-flaske{
-    height: 20rem;
+    height: 30%;
     position: absolute;
-    margin-left: -35rem;
+    margin-left: -25rem;
     transform: rotate(-30deg);
     margin-top: -5rem;
 }
@@ -612,7 +612,7 @@ img.kaktus {
     align-items: center;
     text-align: center;
     color: #ff2800;
-    font-size: 1.5rem;  
+    font-size: 1.2rem;  
     font-family: "Montserrat", sans-serif;
 }
 
