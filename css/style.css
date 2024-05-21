@@ -1074,6 +1074,8 @@ div.find-os-boks {
     .boks1-container {
         flex-direction: column;
         align-items: center;
+        margin-left: 20%;
+        margin-right: 20%;
     }
     
     /* Fjerner margin fra billedet */
@@ -1114,9 +1116,12 @@ div.find-os-boks {
     .tekst-under2 {
         max-width: 100%;
     }
+
     .boks3-container {
         flex-direction: column;
         align-items: center;
+        margin-left: 20%;
+        margin-right: 20%;
     }
 
     .william-illustration {
@@ -1158,6 +1163,24 @@ div.find-os-boks {
         height: 10rem;
         margin-left: -12.5rem;
         margin-top: -1rem;
+    }
+
+    h1 {
+        font-size: 2rem;  
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+      /* Styler billeder-overskrift h3 */
+      .billede-overskrift h3 {
+        font-size: 2rem;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    /* Styler billede-overskrift h5 */ 
+        .billede-overskrift h5 {
+        font-size: 1.5rem;
     }
 
     /* Styling af footer */ 
@@ -1322,6 +1345,11 @@ div.find-os-boks {
         display: flex;
         flex-direction: column;
     }
+
+    /* Styling af reservation */
+    img.error404 {
+        width: 100%;
+    }   
 }
 
 
