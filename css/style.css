@@ -711,6 +711,13 @@ img.kaktus {
 
 /* Styling af reservér bord siden */
 /* Sætter siden i flexbox */
+
+.reserver-boks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 .error {
     display: flex;
     flex-direction: column;
@@ -723,10 +730,6 @@ img.kaktus {
     padding: 10rem;
 }
 
-.error404-tekst {
-    height: 10rem;
-    margin-left: 60%;
-}
 /* Samme som over + jeg tilføjer en effekt når man holder over knappen */
 .error404-knap {
     width: 40%;
