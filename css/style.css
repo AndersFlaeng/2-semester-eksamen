@@ -92,6 +92,28 @@ a.logo {
 
 /* Menukort styling begynder her */ 
 /* Main */
+
+.billede-boks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+}
+img.menukort-billeder {
+    height: 5rem;
+    width: auto;
+    margin-top: 4rem;
+}
+
+img.menukort-billeder2 {
+    height: 8rem;
+    width: auto;
+    margin-top: 4rem;
+}
+
+
 figure {
     display: flex;
     justify-content: center;
