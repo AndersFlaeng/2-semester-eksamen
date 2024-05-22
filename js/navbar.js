@@ -11,6 +11,8 @@ hamMenu.addEventListener('click', () => {
     menu.classList.toggle('active');
 });
 
+
+
 // Lytter efter at DOM'en er indlæst før den udfører funktionen.
 document.addEventListener("DOMContentLoaded", function() {
     // Finder logoet ved hjælp af dets id og tildeler det til en variabel.
@@ -30,3 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
     logo.addEventListener('mouseenter', startRotation); // Når musen befinder sig over logoet, starter rotationen.
     logo.addEventListener('mouseleave', stopRotation); // Når musen forlader logoet, stopper rotationen.
 });
+
+
+
+
