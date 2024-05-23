@@ -1,4 +1,4 @@
-"use strict"; // Aktiverer "strict mode", hvilket skaber et mere sikkert og fejltolerant miljø i JavaScript.
+'use strict'; // Aktiverer "strict mode", hvilket skaber et mere sikkert og fejltolerant miljø i JavaScript.
 
 // Finder HTML-elementer ved hjælp af querySelector og tildeler dem til variabler.
 const hamMenu = document.querySelector('.ham-menu'); // Hamburger-menuen
@@ -10,6 +10,8 @@ hamMenu.addEventListener('click', () => {
     hamMenu.classList.toggle('active');
     menu.classList.toggle('active');
 });
+
+
 
 
 

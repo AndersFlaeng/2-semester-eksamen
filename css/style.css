@@ -781,7 +781,7 @@ img.kaktus {
 }
 .error {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 }
 
 /* Gør så billedet fylder 100% af bredden */
