@@ -788,11 +788,12 @@ img.kaktus {
 .error404 {
     width: 70%;
     height: auto;
+    padding-bottom: 2rem;
 }
 
 /* Samme som over + jeg tilføjer en effekt når man holder over knappen */
 .error404-knap {
-    width: 50%;
+    width: 40%;
     height: auto;
     transition: 0.3s ease;
 }
@@ -803,7 +804,7 @@ img.kaktus {
 }
 
 .error404-tekst {
-    width: 30%;
+    width: 20%;
     height: auto;
 }
 
