@@ -64,6 +64,7 @@ document.addEventListener("DOMContentLoaded", function() {
     searchIcon.addEventListener('click', function() {
         // Toggler 'active' klassen på containeren, hvilket ændrer dens stil (viser eller skjuler søgefeltet)
         searchContainer.classList.toggle('active');
+
         // Sætter fokus på søgefeltet, når det vises
         searchInput.focus();
     });

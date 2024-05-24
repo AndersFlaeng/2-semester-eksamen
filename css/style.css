@@ -115,6 +115,7 @@ a.logo {
 .search-form {
     position: relative;
     border-radius: 25%;
+    transition: 1s;
 }
 
 .search-input {
@@ -143,6 +144,11 @@ a.logo {
 .search-input:focus {
     width: 200px;
     opacity: 1;
+}
+
+
+.search-form:hover {
+    margin-left: 200px;
 }
 
 .search-form:hover .search-button,
