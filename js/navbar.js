@@ -38,3 +38,36 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
+document.addEventListener("DOMContentLoaded", function() {
+    const searchIcon = document.getElementById('search-icon');
+    const searchInput = document.getElementById('search-input');
+    const searchContainer = document.querySelector('.search-container');
+
+    searchIcon.addEventListener('click', function() {
+        searchContainer.classList.toggle('active'); // Toggler klassen 'active' på containeren
+        searchInput.focus(); // Sætter fokus på inputfeltet
+    });
+});
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Finder HTML-elementer ved hjælp af deres id'er og klassenavn og tildeler dem til variabler
+    const searchIcon = document.getElementById('search-icon'); // Søgeikonet
+    const searchInput = document.getElementById('search-input'); // Søgefeltet
+    const searchContainer = document.querySelector('.search-container'); // Containeren, der indeholder både ikonet og søgefeltet
+
+    // Tilføjer en eventlistener til søgeikonet, der lytter efter klik
+    searchIcon.addEventListener('click', function() {
+        // Toggler 'active' klassen på containeren, hvilket ændrer dens stil (viser eller skjuler søgefeltet)
+        searchContainer.classList.toggle('active');
+        // Sætter fokus på søgefeltet, når det vises
+        searchInput.focus();
+    });
+});
+
+
+

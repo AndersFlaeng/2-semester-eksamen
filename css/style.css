@@ -112,6 +112,44 @@ a.logo {
     animation: rotateLeft 2s linear infinite;
 }
 
+.search-form {
+    position: relative;
+    border-radius: 25%;
+}
+
+.search-input {
+    padding: 0.5em;
+    border: 1px solid #000;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1em;
+    width: 0;
+    opacity: 0;
+    transition: width 0.3s ease, opacity 0.3s ease;
+    position: absolute;
+    right: 0;
+}
+
+.search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 0.5em;
+    color: #c91e25;
+}
+
+.search-form:hover .search-input,
+.search-input:focus {
+    width: 200px;
+    opacity: 1;
+}
+
+.search-form:hover .search-button,
+.search-input:focus + .search-button {
+    color: #c91e25;
+}
+
 /* Menukort styling begynder her */ 
 /* Main */
 
